@@ -1,4 +1,4 @@
-class_name RangedValue
+class_name BoundedValue
 extends Node
 
 
