@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dxbm6uoa63dke"]
 
-[ext_resource type="Script" path="res://BoundedValue/bounded_value.gd" id="1_wsbuo"]
+[ext_resource type="Script" path="res://sounded value/bounded_value.gd" id="1_wsbuo"]
 
 [node name="BoundedValueExample" type="Node"]
 script = ExtResource("1_wsbuo")
