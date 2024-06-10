@@ -1,11 +1,14 @@
 class_name Stat
-extends Node
 
 
 @export var base_value: float : set = _set_base_value
 @export var multiplier: float = 1 : set = _set_multiplier
 var value: float
 
+
+func _init(base_value_arg: float, multiplier_arg: float = 1):
+	base_value = base_value_arg
+	multiplier = multiplier_arg
 
 func _update_value() -> void:
 	value = base_value * multiplier
