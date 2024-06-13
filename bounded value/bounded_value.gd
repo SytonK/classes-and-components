@@ -1,9 +1,9 @@
 class_name BoundedValue
 
 
-@export var max_value: float = 0 : set = _set_max_value
-@export var min_value: float = 0 : set = _set_min_value
-@export var value: float = 0 : set = _set_value
+var max_value: float = 0 : set = _set_max_value
+var min_value: float = 0 : set = _set_min_value
+var value: float = 0 : set = _set_value
 
 
 func _init(max_value_arg: float = 0, min_value_arg: float = 0, value_arg: float = 0):
